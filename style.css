@@ -1,0 +1,160 @@
+
+header {
+
+    font-family: Billabong;
+    font-size: 25px;
+
+
+}
+@font-face {
+    font-family: 'Billabong';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Billabong'), url('Billabong.woff') format('woff');
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 100px;
+    padding: 0;
+    overflow: hidden;
+}
+.header{
+
+    text-align: center;
+}
+
+.gelukt p {
+    color: green;
+
+}
+
+.gelukt a {
+    color: greenyellow;
+}
+nav>ul>li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-left: 1px solid purple;
+    box-sizing: border-box;
+    padding: 0.5em;
+    background-color: deeppink;
+}
+
+#wrapper{
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: purple;
+}
+nav>ul>li:hover {
+    background-color: purple;
+    transition: .3s ease-in-out;
+    color: white;
+}
+
+nav>ul>li:not(:hover){
+    background-color: deeppink;
+    color: purple;
+}
+nav>ul>li>a:hover {
+  color: white;
+    transition: .3s ease-in-out;
+}
+
+nav li a{
+    display: block;
+}
+
+fieldset {
+ margin: 12px 12px;
+    padding-bottom: 30px;
+
+}
+
+input[type=text] {
+
+    border: 1px solid deeppink;
+    background-color: rgba(219, 4, 247 0.5);
+    border-radius: 2px;
+    padding: 12px 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    border: 1px solid deeppink;
+    border-radius: 2px;
+    padding: 12px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    border: 1px solid deeppink;
+    border-radius: 2px;
+    padding: 12px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+input[type=email]:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+input[type=password]:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+input[type=submit]{
+    background-color: deeppink;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+
+}
+
+input[type=submit]:hover{
+    background-color: white;
+    border: 2px solid deeppink;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+
+.inline  {
+padding-top: 5px;
+margin: 0 auto;
+width: 50%;
+border: 1px solid black;
+   margin-bottom: 10px;
+text-align: center;
+    border-radius:5px
+}
+
+.gebruiker-icon {
+    border: 1px solid black;
+    border-right: 180px;
+    border-radius: 180px;
+}
