@@ -1,7 +1,7 @@
 <?php
 
 define('HOST','localhost');
-define('PASS','23136');
-define('USER','exkungen');
+define('PASS','root');
+define('USER','root');
 define('DBNAME','23136_database');
 
