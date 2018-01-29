@@ -38,9 +38,9 @@
                 <input type="submit" name="submit" value="submit">
                 <?php
                 define('HOST','localhost');
-                define('USER','exkungen');
-                define('PASS','23136');
-                define('DBNAME','23136_database');
+                define('USER','');
+                define('PASS','');
+                define('DBNAME','');
                 if(isset($_POST['submit']))   {
                     require_once('upload.php');
                     $dbc = mysqli_connect(HOST,USER,PASS,DBNAME) or die ('cant connect to the database');
